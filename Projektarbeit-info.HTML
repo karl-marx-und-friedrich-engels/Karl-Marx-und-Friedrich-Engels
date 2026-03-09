@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projektarbeit – Vorstellung</title>
+
+<style>
+body{
+  font-family: Arial, sans-serif;
+  background: #F1DCC9;
+  margin:0;
+  color: #333;
+}
+
+.container{
+  max-width: 800px;
+  margin: 80px auto;
+  background: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+h1{
+  text-align:center;
+  color:#6C2D2C;
+  margin-bottom:30px;
+}
+
+/* TEXTBLOCK MIT STRICH */
+.textbox{
+  border-left: 4px solid #9F4636;
+  background: #f9f3ee;
+  padding: 20px 25px;
+  border-radius: 6px;
+  margin-top: 20px;
+}
+
+.textbox p{
+  font-size: 1.05em;
+  line-height: 1.7;
+  margin:0 0 15px 0;
+}
+
+/* BILD */
+.project-image{
+  display:block;
+  max-width:90%;
+  height:auto;
+  margin:25px auto;
+  border-radius:8px;
+  box-shadow:0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* BUTTON */
+.button-container{
+  text-align:center;
+  margin-top:30px;
+}
+
+button{
+  background:#9F4636;
+  color:#F1DCC9;
+  padding:12px 24px;
+  font-size:1em;
+  border:none;
+  border-radius:8px;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+button:hover{
+  background:#6C2D2C;
+}
+
+/* FOOTER */
+footer{
+  text-align:center;
+  padding:20px;
+  background:#6C2D2C;
+  color:#F1DCC9;
+  margin-top:60px;
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<h1>Unsere Projektarbeit</h1>
+
+<!-- Textblock 1 -->
+<div class="textbox">
+  <p>
+    In unserer Projektarbeit mit dem Titel „Leben und Visionen – wie Karl Marx und Friedrich Engels die Zukunft prägten“
+    beschäftigen wir uns mit dem Leben und den Ideen dieser beiden bedeutenden Denker des 19. Jahrhunderts.
+    Bei der Themenfindung suchten wir nach historischen Inhalten, die heute oft weniger beachtet werden,
+    deren Bedeutung jedoch weiterhin aktuell ist.
+  </p>
+</div>
+
+<!-- Textblock 2 -->
+<div class="textbox">
+  <p>
+    Ziel unserer Arbeit ist es, Jugendlichen die zentralen Ideen der beiden Philosophen verständlich näherzubringen
+    und zu zeigen, wie sie die gesellschaftlichen und wirtschaftlichen Verhältnisse ihrer Zeit analysierten.
+    Gleichzeitig möchten wir verdeutlichen, dass viele ihrer Überlegungen auch heute noch diskutiert werden.
+  </p>
+</div>
+
+<!-- Bild -->
+<img class="project-image" src="https://i.imgur.com/Pfi0KEa.png" alt="Projektbild"/>
+
+<!-- Textblock 3 -->
+<div class="textbox">
+  <p>
+    Um diese Inhalte anschaulich darzustellen, haben wir unsere Ergebnisse in Form einer Website aufbereitet,
+    die einen einfachen Zugang zu den wichtigsten Informationen über Marx, Engels und ihre Werke bietet.
+  </p>
+</div>
+
+<!-- Button -->
+<div class="button-row" style="display:flex; justify-content:space-between; margin-top:30px;">
+
+  <!-- Zurück-Button links -->
+  <button onclick="window.location.href='index.html'">
+    ← Zurück zur Startseite
+  </button>
+
+  <!-- Weiter-Button rechts -->
+  <button onclick="window.location.href='projektarbeit.html'">
+    Weiter zur Projektarbeit →
+  </button>
+
+</div>
+
+</div>
+
+<footer>
+<p>© 2025 Unser Projektteam – Alle Rechte vorbehalten</p>
+</footer>
+
+<script>
+function weiter(){
+  window.location.href="https://karl-marx-friedrich-engels.netlify.app/";
+}
+</script>
+
+</body>
+</html>
